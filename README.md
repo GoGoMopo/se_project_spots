@@ -17,4 +17,4 @@ you can customize your profile picture and add a title to you name so people und
 
 This webpage is deployed on github pages
 
-- Deployment link:
+[Deployment link](https://username.github.io/repo-name)
