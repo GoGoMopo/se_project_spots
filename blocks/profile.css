@@ -9,6 +9,11 @@
   margin-top: auto;
   border: none;
   background: none;
+  cursor: pointer;
+}
+
+.profile__add-btn:hover {
+  opacity: 0.5;
 }
 
 .profile__avatar {
@@ -29,6 +34,11 @@
   color: #212121;
   width: fit-content;
   height: fit-content;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  opacity: 0.5;
 }
 
 .profile__title {
