@@ -8,8 +8,8 @@
   margin-left: auto;
   margin-top: auto;
   border: none;
-  background: none;
   cursor: pointer;
+  color: #fcf5e5;
   background: #212121;
   width: 157px;
   height: 52px;
@@ -37,6 +37,9 @@
 }
 
 .profile__edit-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-top: auto;
   background: none;
   border: none;
@@ -48,17 +51,10 @@
   line-height: 100%;
   font-weight: 500;
   opacity: 70%;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 100%;
 }
 
 .profile__edit-btn:hover {
   opacity: 1;
-}
-
-.profile__title {
-  margin: 0;
 }
 
 .profile__name {
@@ -121,12 +117,12 @@
   }
 
   .profile__add-btn {
-    margin: 0;
-    width: 100%;
+    display: flex;
+    margin-left: auto;
   }
 
   .profile__edit-btn {
-    display: block;
+    display: flex;
     margin: 0 auto;
   }
 }

@@ -17,7 +17,7 @@ you can customize your profile picture and add a title to you name so people und
 
 This webpage is deployed on github pages
 
-[Deployment link](https://username.github.io/repo-name)
+[Deployment link](https://gogomopo.github.io/se_project_spots/)
 
 video
 
