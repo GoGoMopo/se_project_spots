@@ -4,16 +4,15 @@ const editProfileModal = document.querySelector("#editProfile");
 
 const ediProfiletCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 
-
-const newPostBtn = document.querySelector(".profile__new-post-btn")
-const newPostModal = document.querySelector("#new-post-modal")
-const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn")
+const newPostBtn = document.querySelector(".profile__new-post-btn");
+const newPostModal = document.querySelector("#new-post-modal");
+const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 editProfileBtn.addEventListener("click", function () {
   editProfileModal.classList.add("modal_is-opened");
 });
 
-editProfileBtn;.addEventListener("click", function() {
+editProfileBtn.addEventListener("click", function () {
   editProfileModal.classList.remove("modal_is-opened");
 });
 
@@ -24,4 +23,3 @@ newPostBtn.addEventListener("click", function () {
 newPostCloseBtn.addEventListener("click", function () {
   editProfileModal.classList.add("modal_is-opened");
 });
-
