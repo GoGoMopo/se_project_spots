@@ -85,7 +85,6 @@
 }
 
 .modal__submit-btn:hover {
-  j
 }
 
 @media screen and (max-width: 320px) {
@@ -97,12 +96,10 @@
     padding: 22px 12px 12px;
   }
   .modal__close-btn {
-    
   }
   .modal__title {
-    
   }
-  .modal__input{
+  .modal__input {
     font-size: 16px;
   }
 }
